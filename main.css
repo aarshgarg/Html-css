@@ -1,0 +1,33 @@
+.container
+        {
+            width: 100%;
+           height:544px;
+            border: 2px solid black;
+            /* Intialize the container as a flex  */
+            display: flex;
+           flex-direction: row;
+           
+           /* flex-direction: row-reverse; */
+           /* flex-direction: column-reverse;
+
+            */
+            
+            flex-wrap: wrap;      
+            justify-content: center;
+            justify-content: space-between;  
+            justify-content: space-evenly;
+
+            cursor: pointer;
+            align-items:center;
+            
+        }
+        .item{
+            background-color: rgb(145, 145, 201);
+            width: 200px;
+            height: 200px;
+            border:2px solid black;
+            margin:12px;
+            padding:3px;
+           
+
+        }
