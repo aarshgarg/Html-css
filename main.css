@@ -8,17 +8,23 @@
            flex-direction: row;
            
            /* flex-direction: row-reverse; */
-           /* flex-direction: column-reverse;
+           /* flex-direction: column-reverse;*/
 
-            */
+           /* This is the shortend version of the flex-direction: and flex-wrap: ; */
+            /* flex-flow: row-reverse wrap; */
             
             flex-wrap: wrap;      
             justify-content: center;
             justify-content: space-between;  
             justify-content: space-evenly;
+            justify-content: space-around;
+
 
             cursor: pointer;
             align-items:center;
+            /* align-items: flex-end;
+            align-items: flex-start;
+            align-items: stretch; */
             
         }
         .item{
@@ -30,4 +36,14 @@
             padding:3px;
            
 
+        }
+        #item-1
+        {
+            /* order:2; */
+        }
+        #item-2
+        {
+            /* flex-grow: 3; */
+            /* when flex direction is set to the row  flex_basics  will control width;
+            when flex direction is set to the olumn flex_basics is will control height: ; */
         }
