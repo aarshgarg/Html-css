@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+
+        }
+
+        .card {
+            margin: 23px 10px;
+            padding: 23px 10px;
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
+            /* box-shadow: 10px 13px green; */
+            /* box-shadow: -10px -13px green; */
+            /* box-shadow: 7px 5px 10px green;
+    box-shadow: -7px -5px 10px green; */
+            /* box-shadow: -7px -5px 10px 34px green; */
+            /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+            box-shadow: inset 3px 5px green;
+
+            box-shadow: 3px 5px green, 4px 6px red;
+            /* box-shadow: 3px 5px 6px green; */
+            background-color: rgb(123, 17, 237);
+            width: 48%;
+        }
+
+        .card h2 {
+            text-shadow: -3px -2px -2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2> This is my c++ course</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus a
+                blanditiis amet eligendi, temporibus quaerat debitis officiis excepturi aliquid molestiae.
+
+            </p>
+        </div>
+        <div class="card" id="card-2">
+            <h2> This is my html course </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quis at nisi assumenda,
+                sequi enim officiis fuga debitis, omnis nemo sit consectetur
+            </p>
+        </div>
+        <div class="card" id="card-3">
+            <h2> Card 3</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Minima repudiandae facilis error corrupti quod nostrum?
+                Esse iure, saepe ex aut nobis error ratione?</p>
+        </div>
+    </div>
+</body>
+
+</html>
