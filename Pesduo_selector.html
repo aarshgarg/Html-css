@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo And selector </title>
+    <style>
+        body
+        {
+            background-color: black;
+            color: rgb(255 255 240);
+            
+         
+        }
+
+        header::before{
+            background: url(6-62885_best-top-desktop-food-wallpapers-hd-food-wallpaper.jpg) no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top:0;
+            left: 0;
+           
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        .navigation
+        {
+            display: flex;
+           
+            
+            
+        }
+        li{
+            padding: 32px 23px;
+            list-style:none;
+            
+            
+        }
+        li a 
+        {
+
+            text-decoration: none ;
+            color: aliceblue;
+            display: block;
+        }
+
+        li a:hover
+        {
+            
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        section{
+            height: 600px;
+            display: flex;
+            margin: 23px 231px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        h2
+        {
+            font-size: 4rem;
+        }
+        p
+        {
+            text-align: center;
+        }
+        /* section::before
+        {
+            content: "In this we use before and after pseudo selectors";
+        } */
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" >
+            <ul class="navigation">
+                <li class ="item"> <a href="#"> Home</a></li>
+                <li class="item"> <a href ="#"> About</a></li>
+                <li class="item"> <a href="#"> Services</a></li>
+                <li class="item"> <a href="#"> Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section>
+            <h2> Welcome to coding page </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos atque, quos illum suscipit 
+                ducimus doloribus aspernatur voluptatibus commodi ipsum? Harum rerum 
+                accusantium animi accusamus, minima molestias esse quod cupiditate,
+                 laudantium placeat, illum fugit doloribus!</p>
+                 <hr>
+        </section>
+  
+</body>
+</html>
