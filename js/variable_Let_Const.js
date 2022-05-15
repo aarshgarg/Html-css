@@ -15,6 +15,8 @@ const ownersName = 'Hari Ram';
  //ownersName = 'Aarsh'; // Cannot do this (error)
 console.log(ownersName);
 
+// In the let we can change the value with tthe block but outisde
+// the block it same aas globably delcared value  
 {
     let city = 'Rampur';   
     city = 'Kolkata';
@@ -25,4 +27,15 @@ console.log(ownersName);
 
    const arr1=[34,66,7,78,32];
    arr1.push(51);
+   
    console.log(arr1);
+
+   /* Most common programming case types:
+
+1. camelCase  
+2. kebab-case
+3. snake_case 
+4. PascalCase 
+
+
+*/
