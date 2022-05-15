@@ -80,7 +80,7 @@ let arr =  String([1,2,3,4,5]);
 
  let number = parseFloat('34.098');
 
-
+// to fixed is used to fix the number after the point 
  console.log(number.toFixed(2), (typeof number));
 
 
